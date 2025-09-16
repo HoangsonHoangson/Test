@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cao đẳng Công Thương Việt Nam</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background: #f5f5f5;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        background: #003366;
+        color: white;
+        padding: 10px 20px;
+      }
+      header h1 {
+        font-size: 22px;
+      }
+
+      /* Menu chính */
+      nav {
+        background: #0055a5;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      nav ul li {
+        position: relative;
+      }
+      nav ul li a {
+        display: block;
+        padding: 12px 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      nav ul li a:hover {
+        background: #003f7f;
+      }
+
+      /* Menu con */
+      nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #0077cc;
+        min-width: 180px;
+        z-index: 1000;
+      }
+      nav ul li:hover ul {
+        display: block;
+      }
+      nav ul li ul li {
+        width: 100%;
+      }
+      nav ul li ul li a {
+        padding: 10px 15px;
+        font-weight: normal;
+      }
+      nav ul li ul li a:hover {
+        background: #005fa3;
+      }
+
+      /* Nội dung demo */
+      section {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Trường Cao đẳng Công Thương Việt Nam (VCI)</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li>
+          <a href="#">Giới thiệu ▾</a>
+          <ul>
+            <li><a href="#">Tổng quan</a></li>
+            <li><a href="#">Sứ mệnh - Tầm nhìn</a></li>
+            <li><a href="#">Ban giám hiệu</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Ngành học ▾</a>
+          <ul>
+            <li><a href="#">Công nghệ thông tin</a></li>
+            <li><a href="#">Điều dưỡng - Dược</a></li>
+            <li><a href="#">Logistics</a></li>
+            <li><a href="#">Ngôn ngữ (Nhật - Hàn - Trung - Đức)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Tuyển sinh ▾</a>
+          <ul>
+            <li><a href="#">Thông tin tuyển sinh</a></li>
+            <li><a href="#">Học phí</a></li>
+            <li><a href="#">Học bổng</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Chào mừng bạn đến với VCI</h2>
+      <p>
+        Đây là bản demo giao diện website với menu phân cấp (menu cha - menu
+        con). Bạn có thể di chuột vào các mục trên thanh menu để thấy menu con
+        xổ xuống.
+      </p>
+    </section>
+  </body>
+</html>

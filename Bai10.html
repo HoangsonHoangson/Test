@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Đăng Ký</title>
+  </head>
+  <body>
+    <h2>Đăng Ký</h2>
+    <form action="xuly.php" method="post">
+      <table>
+        <tr>
+          <td>Họ và tên:</td>
+          <td><input type="text" name="fullname" required /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td>Mật khẩu:</td>
+          <td><input type="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <td>Xác nhận mật khẩu:</td>
+          <td><input type="password" name="confirm" required /></td>
+        </tr>
+        <tr>
+          <td>Giới tính:</td>
+          <td>
+            <select name="gender">
+              <option value="nam">Nam</option>
+              <option value="nu">Nữ</option>
+              <option value="khac">Khác</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Ngày sinh:</td>
+          <td><input type="date" name="dob" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Đăng Ký</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.menu_ngang {
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.menu_ngang li {
+  float: left;
+  color: rgb(127, 138, 255);
+  width: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style: none;
+  text-align: center;
+  border-right: #cccc solid 1px;
+}
+#menu_doc {
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#menu_doc li {
+  list-style: none; /*bỏ dấu chấm mặc định thẻ li */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  color: aliceblue;
+  background: #aaa;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 5px; /*Mỗi menu cách nhau 5px*/
+}
